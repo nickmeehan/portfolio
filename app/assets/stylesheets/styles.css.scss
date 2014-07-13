@@ -1,7 +1,7 @@
 nav {
   background-color: #D1CDC0;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
 }
 
 .pure-g {
@@ -20,12 +20,12 @@ nav {
 
 #about {
   position: relative;
-  width: 1962px;
+  width: 100%;
   top: 36px;
   height: 720px;
   background: url("DevBootcampspace.jpeg");
-  @media (max-width: 730px) {
-    left: -350px;
+  @media (max-width: 768px) {
+    background: url("DevBootcampspace_shrunk.jpeg");
   }
 }
 
