@@ -1,7 +1,22 @@
+$shadowtext: 'Shadows Into Light', Arial, sans-serif;
+$robototext: 'Roboto', Arial, sans-serif;
+
 nav {
   background-color: #D1CDC0;
   position: fixed;
   z-index: 5;
+}
+
+h1 {
+  font-family: $shadowtext;
+}
+
+h2 {
+  font-family: $shadowtext;
+}
+
+a {
+  text-decoration: none;
 }
 
 .pure-g {
@@ -60,7 +75,6 @@ nav {
 }
 
 #about-description h1 {
-  font-family: 'Shadows Into Light';
   margin-top: 20px;
   font-size: 80px;
   color: #FFFFFF;
@@ -70,7 +84,7 @@ nav {
 }
 
 #about-description p {
-  font-family: 'Shadows Into Light';
+  font-family: $shadowtext;
   font-size: 35px;
   color: #FFFFFF;
   @media (max-width: 1024px) {
