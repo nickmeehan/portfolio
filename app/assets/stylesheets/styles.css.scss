@@ -49,25 +49,56 @@ nav {
   right:0;
   margin-left:auto;
   margin-right:auto;
-  bottom: 100px;
+  bottom: 50px;
 }
 
 .about-content {
   width: 100%;
-  height: 720px;
+  height: 700px;
   z-index: 2;
   position: absolute;
 }
 
-#about-description p {
-  font-size: 60px;
+#about-description h1 {
+  font-family: 'Shadows Into Light';
+  margin-top: 20px;
+  font-size: 80px;
   color: #FFFFFF;
+  @media (max-width: 1024px) {
+    margin-left: 5%;
+  }
+}
+
+#about-description p {
+  font-family: 'Shadows Into Light';
+  font-size: 35px;
+  color: #FFFFFF;
+  @media (max-width: 1024px) {
+    margin-left: 5%;
+  }
 }
 
 .dark-filter {
   background-color: black;
   width: 100%;
-  height: 720px;
-  opacity: 0.8;
+  height: 700px;
+  opacity: 0.83;
   z-index: 1;
+}
+
+#portfolio {
+}
+
+.iphone-mockup {
+  margin-top: 40px;
+  height: 610px;
+  background: url("iphone_black_portrait.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#project-preview {
+  position: absolute;
+  top: 96px;
+  left: 32px;
 }
