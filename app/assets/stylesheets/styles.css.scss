@@ -87,18 +87,89 @@ nav {
 }
 
 #portfolio {
+  margin-top: 30px;
+}
+
+#portfolio h1 {
+  font-size: 45px;
+  margin-left: 20px;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+}
+
+#portfolio h2 {
+  font-size: 30px;
+}
+
+#portfolio p {
+  font-size: 20px;
+  font-family: $robototext;
 }
 
 .iphone-mockup {
-  margin-top: 40px;
   height: 610px;
+  width: 305px;
+  margin-bottom: 25px;
   background: url("iphone_black_portrait.png");
   background-repeat: no-repeat;
   position: relative;
+  @media (max-width: 767px) {
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+  }
 }
 
 #project-preview {
   position: absolute;
   top: 96px;
   left: 32px;
+}
+
+#tweetyo-section {
+  color: #FFFFFF;
+  background-color: #9B58B5;
+}
+
+#tweetyo-section a {
+  color: #FFFFFF;
+}
+
+#sugarsnap-section {
+  background-color: #85E085;
+}
+
+#sugarsnap-section {
+  color: #000000;
+}
+
+#forecash-section {
+  color: #FFFFFF;
+  background-color: #0078E7;
+}
+
+#forecash-section a {
+  color: #FFFFFF;
+}
+
+.project-description {
+  @media (max-width: 767px) {
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+.project-technologies {
+  margin-top: 30px;
+  @media (max-width: 767px) {
+    padding: 0px 20px 0px 20px;
+    width: 90%;
+    margin-bottom: 25px;
+  }
+}
+
+.project-technologies img {
+  display: inline-block;
+  padding: 7px 7px 7px 7px;
 }
